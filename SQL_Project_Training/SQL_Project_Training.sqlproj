@@ -60,5 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Employees.sql" />
+    <Build Include="Tables\Salaries.sql" />
+    <Build Include="Tables\Titles.sql" />
+    <Build Include="Tables\Departments.sql" />
+    <Build Include="Tables\Dept_Manager.sql" />
+    <Build Include="Tables\Dept_Emp.sql" />
   </ItemGroup>
 </Project>
