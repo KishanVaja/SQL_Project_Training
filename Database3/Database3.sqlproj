@@ -3,16 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>SQL_Project_Training</Name>
+    <Name>Database3</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{64646718-3aee-4c01-9629-fe7beda600cf}</ProjectGuid>
+    <ProjectGuid>{8cf68739-7f09-4119-ac99-092789934ec1}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>SQL_Project_Training</RootNamespace>
-    <AssemblyName>SQL_Project_Training</AssemblyName>
+    <RootNamespace>Database3</RootNamespace>
+    <AssemblyName>Database3</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -56,17 +56,8 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Employees.sql" />
-    <Build Include="Tables\Salaries.sql" />
-    <Build Include="Tables\Employee_Titles.sql" />
-    <Build Include="Tables\Departments.sql" />
-    <Build Include="Tables\Dept_Manager.sql" />
-    <Build Include="Tables\Dept_Emp.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="SQL_Project_Training.refactorlog" />
+    <Build Include="Table1.sql" />
   </ItemGroup>
 </Project>
